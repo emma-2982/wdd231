@@ -4,11 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231 BYU Pathway</title>
-</head>
-<body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <meta name="description" content="This website contains assignments and projects for my web development course.">
+    <meta name="author" content="Emmanuel Kofi Teye">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    </head>
+
+    <header>
+        <img src="images/music.svg" alt="Site Logo" width="512" height="512">
+        <span>Emmanuel Kofi Teye</span>
+        <button id="nav-button" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="structure">
+        <section class="card">
+            <h2>About Me</h2>
+            <p>My name is Emmanuel Kofi Teye. I come from Ghana. I am currently enrolled at BYU doing Software Engineering. This is the last course in the certificate program.</p>
+        </section>
+        <section class="card">
+            <h2>Student Photo</h2>
+            <img src="images/photo.jpg" alt="Student Photo">
+        </section>
+        <section id= "container" class="card-courses">
+            <h2>Web Certificate Courses</h2>
+            <div id="course-names" class= "course-button">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+             </div>
+             <div id= "list" class="course-list">
+                <p>WDD 130</p>
+                <P>WDD 131</P>
+                <p>WDD 231</p>
+                <P>CSE 110</P>
+                <P>CSE 111</P>
+                <P>CSE 210</P>
+             </div>
+            <p id="text">The total credits for the course listed above is 6</p>
+        </section>
+       </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/emma-2982">
+                <img src="images/Github.jpg" alt="Github">
+            </a>
+            
+            <a href="https://www.instagram.com/">
+                <img src="images/Instagram.jpg" alt="Instagram">
+             </a>
+
+             <a href="https://web.whatsapp.com/">
+                <img src="images/whatApp.jpg" alt="Whatsapp">
+
+             </a>
+
+             <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedIn.jpg" alt="LinkedIn">
+             </a>
+
+        </div>
+
+        <p>
+            © <span id="year"></span> Emmanuel Kofi Teye • Ghana
+        </p>
+        <p id="lastModified"></pid>
+    </footer>
 </body>
 </html>
