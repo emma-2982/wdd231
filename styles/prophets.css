@@ -1,0 +1,54 @@
+/* Page Layout */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #003366;
+    color: white;
+}
+
+/* Grid Layout */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+/* Individual Cards */
+#cards section {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+#cards section:hover {
+    transform: scale(1.03);
+}
+
+#cards h2 {
+    margin-top: 0;
+    color: #003366;
+}
+
+#cards p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+#cards img {
+    margin-top: 1rem;
+    border-radius: 8px;
+}
