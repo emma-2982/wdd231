@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Blue Horizon Technologies",
+            "address": "123 Marina Road, Abu Dhabi",
+            "phone": "+971 2 555 1234",
+            "website": "https://bluehorizontech.com",
+            "image": "http://127.0.0.1:5500/images/preview.jpg",
+            "membership": 3,
+            "description": "Leading provider of cloud and AI solutions."
+        },
+        {
+            "name": "Desert Bloom Landscaping",
+            "address": "45 Green Oasis St, Abu Dhabi",
+            "phone": "+971 2 444 9876",
+            "website": "https://desertbloom.ae",
+            "image": "desertbloom.jpg",
+            "membership": 2,
+            "description": "Specialists in sustainable outdoor design."
+        },
+        {
+            "name": "Golden Falcon Logistics",
+            "address": "78 Cargo Terminal Rd, Abu Dhabi",
+            "phone": "+971 2 333 1122",
+            "website": "https://goldenfalconlogistics.com",
+            "image": "goldenfalcon.jpg",
+            "membership": 3,
+            "description": "International shipping and freight services."
+        },
+        {
+            "name": "Palm View Hotel",
+            "address": "12 Corniche Rd, Abu Dhabi",
+            "phone": "+971 2 222 3344",
+            "website": "https://palmviewhotel.ae",
+            "image": "palmview.jpg",
+            "membership": 1,
+            "description": "Luxury hotel with waterfront views."
+        },
+        {
+            "name": "Oasis Fitness Center",
+            "address": "9 Wellness Ave, Abu Dhabi",
+            "phone": "+971 2 777 8899",
+            "website": "https://oasisfitness.ae",
+            "image": "oasisfitness.jpg",
+            "membership": 2,
+            "description": "Modern gym and wellness center."
+        },
+        {
+            "name": "Sunrise Café",
+            "address": "56 Market Street, Abu Dhabi",
+            "phone": "+971 2 666 7788",
+            "website": "https://sunrisecafe.ae",
+            "image": "sunrise.jpg",
+            "membership": 1,
+            "description": "Cozy café serving organic meals."
+        },
+        {
+            "name": "Pearl Financial Services",
+            "address": "88 Business Tower, Abu Dhabi",
+            "phone": "+971 2 111 2233",
+            "website": "https://pearlfinance.ae",
+            "image": "pearlfinance.jpg",
+            "membership": 3,
+            "description": "Trusted advisors for business finance."
+        }
+    ]
+}
