@@ -1,30 +1,60 @@
+/* HEADER LAYOUT */
 header {
-    display: grid;
-    grid-template-columns: 24px auto 44px;
-    padding: 5px 0 5px 10px;
-    align-items: end;
-    border: solid 1 px #ddd;
-    column-gap: 8px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgb(134, 134, 200);
+    color: white;
 }
-header img {
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.branding img {
+    width: 50px;
+}
+
+#menu-toggle {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    background: #7373a9;
+}
+
+nav ul.open {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
     display: block;
-    width: 100%;
-    height: auto;
 }
 
-
-header span {
-    font-size: 1.2rem;
-    color: blue;
-}
-.hamburger {
-
-}
-.hamburger::after {
-    content: "\2630";
+/* FOOTER */
+footer {
+    background: rgb(78, 78, 184);
+    color: white;
+    padding: 2rem;
+    text-align: center;
 }
 
-
-
-
+footer section {
+    margin-bottom: 1rem;
+}
