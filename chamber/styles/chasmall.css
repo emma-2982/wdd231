@@ -1,11 +1,11 @@
-/* HEADER LAYOUT */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background: rgb(134, 134, 200);
-    color: white;
+    color: white
 }
 
 .branding {
@@ -15,7 +15,7 @@ header {
 }
 
 .branding img {
-    width: 50px;
+    width: 100px;
 }
 
 #menu-toggle {
@@ -26,7 +26,7 @@ header {
     cursor: pointer;
 }
 
-/* NAVIGATION */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -34,6 +34,12 @@ nav ul {
     display: none;
     flex-direction: column;
     background: #7373a9;
+}
+nav a:hover {
+    background-color: blue;
+}
+nav li.current {
+    background: rgb(29, 29, 197);
 }
 
 nav ul.open {
@@ -47,7 +53,8 @@ nav a {
     display: block;
 }
 
-/* FOOTER */
+
+
 footer {
     background: rgb(78, 78, 184);
     color: white;
@@ -57,4 +64,71 @@ footer {
 
 footer section {
     margin-bottom: 1rem;
+    color: white;
 }
+
+.socials a{
+   background: rgb(78, 78, 184);
+    color: white;
+    padding: 2rem; 
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    background-color: rgb(148, 148, 215);
+    padding: 1rem;
+        
+}
+.view-buttons {
+    display: none;
+}
+
+.list {
+    display: block;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.member-card img {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    display: block;
+    padding: 2rem;
+    background-color: rgb(123, 123, 214);
+    color:white;
+    font-weight: bolder;
+    
+    
+}
+h2:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: grid;
+    
+}
+

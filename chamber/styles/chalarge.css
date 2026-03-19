@@ -16,4 +16,11 @@
         justify-content: space-between;
         text-align: left;
     }
+
+    .siocial {
+        background: rgb(78, 78, 184);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+    }
 }
