@@ -16,6 +16,7 @@ header {
 
 .branding img {
     width: 100px;
+    height: auto;
 }
 
 #menu-toggle {
@@ -80,12 +81,14 @@ footer section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1rem;
-    background-color: rgb(148, 148, 215);
+    background-color: rgb(143, 143, 172);
     padding: 1rem;
         
 }
 .view-buttons {
-    display: none;
+    display: block;
+    background:  rgb(118, 118, 210);
+
 }
 
 .list {
@@ -98,6 +101,7 @@ footer section {
     gap: 1rem;
     border-bottom: 1px solid #ccc;
     padding: 1rem 0;
+    background-color: rgb(127, 127, 208);
 }
 
 .member-card img {
@@ -106,7 +110,7 @@ footer section {
 }
 h2 {
     display: block;
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgb(123, 123, 214);
     color:white;
     font-weight: bolder;

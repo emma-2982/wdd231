@@ -23,6 +23,9 @@ function displayMembers(members) {
         `;
 
         container.appendChild(card);
+
+
+
     });
 }
 
