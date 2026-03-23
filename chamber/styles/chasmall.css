@@ -105,9 +105,15 @@ footer section {
 }
 
 .member-card img {
+    display: block;
     width: 100%;
     height: auto;
 }
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
 h2 {
     display: block;
     padding: 1rem;
