@@ -1,0 +1,12 @@
+{
+    "members": [
+        {
+            "name": "Tech Solution",
+            "image": "images/tech.jpg",
+            "phone": "123-456-7890",
+            "address": "Abu Dhabi",
+            "website": "https://example.com",
+            "membership": "Gold"
+        }
+    ]
+}

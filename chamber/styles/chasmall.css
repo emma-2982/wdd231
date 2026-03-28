@@ -4,8 +4,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: rgb(134, 134, 200);
-    color: white
+    background: rgb(92, 92, 206);
+    color: white;
 }
 
 .branding {
@@ -145,7 +145,7 @@ h2:hover{
      padding: 1rem;
      margin: 0;
      gap: 0;
-     background: rgb(128, 107, 202)
+     background: whitesmoke
  }
 
  section {
@@ -225,7 +225,7 @@ h2,h3,h4, p {
      gap: 1rem;
  }
 
- /* SPOTLIGHTS */
+ SPOTLIGHTS 
  .spotlights {
      display: grid;
      grid-template-columns:   2fr 1fr;
@@ -238,15 +238,15 @@ h2,h3,h4, p {
  }
 
  .weather p {
-    color: white;
+    color: black;
  }
 
  .events ul {
-    color: white;
+    color: black;
     
  }
  .spotlight h3, p {
-    color: white;
+    color: black;
 
 
  }
@@ -257,7 +257,7 @@ h2,h3,h4, p {
      margin: 0;
  }
  .home h1 {
-    color: white;
+    color: black;
  }
  /*h2 {
     color: rgb(16, 16, 198);
