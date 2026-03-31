@@ -232,6 +232,7 @@ h2,h3,h4, p {
      gap: 1rem;
  }
  .spotlight {
+     display: flex;
      border: 1px solid #ccc;
      padding: 1rem;
      border-radius: 8px;
@@ -243,12 +244,18 @@ h2,h3,h4, p {
 
  .events ul {
     color: black;
+
     
  }
  .spotlight h3, p {
     color: black;
+    font-size: 1.5rem;
 
 
+ }
+ .events{
+    display: flex;
+    font-size: 1.5rem;
  }
 
  .events ul {
@@ -259,7 +266,9 @@ h2,h3,h4, p {
  .home h1 {
     color: black;
  }
- /*h2 {
-    color: rgb(16, 16, 198);
- }
+
+  .weather {
+    display: flex;
+    font-size: 1.5rem;
+  }
 
