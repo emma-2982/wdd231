@@ -61,6 +61,7 @@ footer {
     color: white;
     padding: 2rem;
     text-align: center;
+    text-decoration: none;
 }
 
 footer section {
@@ -141,7 +142,8 @@ h2:hover{
     display: grid;
     
 }
- main {
+ .main {
+    display: grid;
      padding: 1rem;
      margin: 0;
      gap: 0;
@@ -218,7 +220,7 @@ h2,h3,h4, p {
      margin: 2rem 0;
  }
 
- /* EVENTS & WEATHER */
+ /*EVENTS & WEATHER */
  .grid {
      display: grid;
      grid-template-columns: 1fr  1fr;
@@ -228,11 +230,12 @@ h2,h3,h4, p {
  SPOTLIGHTS 
  .spotlights {
      display: grid;
-     grid-template-columns:   2fr 1fr;
+     grid-template-columns: 1fr 1fr;
      gap: 1rem;
+     padding: 1rem;
  }
  .spotlight {
-     display: flex;
+     display: grid;
      border: 1px solid #ccc;
      padding: 1rem;
      border-radius: 8px;
@@ -249,13 +252,13 @@ h2,h3,h4, p {
  }
  .spotlight h3, p {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 
  }
  .events{
-    display: flex;
-    font-size: 1.5rem;
+    display: grid;
+    font-size: 1.2rem;
  }
 
  .events ul {
@@ -268,7 +271,7 @@ h2,h3,h4, p {
  }
 
   .weather {
-    display: flex;
-    font-size: 1.5rem;
+    display: grid;
+    font-size: 1.2rem;
   }
 
