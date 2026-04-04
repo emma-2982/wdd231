@@ -231,3 +231,7 @@ textarea {
 footer {
     margin-top: 2rem;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
