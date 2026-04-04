@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title> Abu Dhabi Chamber of Commerce </title>
+    <meta name="description"
+        content="Explore local businesses in the Abu Dhabi Chamber of Commerce. Find services, contact information, and membership details.">
+    <meta name="author" content="Emmanuel Kofi Teye">
+
+
+    <link rel="icon" href="favicon.ico/favicon (2).ico">
+
+
+    <meta property="og:title" content="Abu Dhabi Chamber of Commerce Directory">
+    <meta property="og:description" content="Discover businesses and services in the Abu Dhabi Chamber of Commerce .">
+    <meta property="og:image" content="http://127.0.0.1:5500/images/preview.jpg">
+    <meta property="og:url" content="http://127.0.0.1:5500/directory.html">
+    <meta property="og:type" content="website">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chasmall.css">
+    <link rel="stylesheet" href="styles/chalarge.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <script src="scripts/cham.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+<body>
+    <header>
+            <div class="branding">
+                <img src="images/preview.jpg" alt=" Abu Dhabi Chamber of Logo">
+                <h1>Abu Dhabi Chamber of Commerce</h1>
+            </div>
+        
+            <button id="menu-toggle" aria-label="Open Menu" aria-expanded="false" aria-controls="primary-nav">
+                ☰
+            </button>
+        
+            <nav id="primary-nav">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main class="thankyou-container">
+        <section class="thankyou-box">
+            <h1>Thank You for Applying!</h1>
+            <p>Your membership application has been received. Below is a summary of your submitted information.</p>
+    
+            <div class="submitted-info">
+                <p><strong>First Name:</strong> <span id="firstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="phone"></span></p>
+                <p><strong>Business Name:</strong> <span id="organization"></span></p>
+                <p><strong>Submission Timestamp:</strong> <span id="timestamp"></span></p>
+            </div>
+    
+            <a href="index.html" class="home-btn">Return to Home</a>
+        </section>
+    </main>
+</body>
+<footer>
+    <section class="footer-contact">
+        <h3>Abu Dhabi Chamber of Commerce</h3>
+        <p>Hamdan Street Mrriot Courtyard<br>Hamdan, Abu Dhabi, UAE</p>
+        <p>Email: info@abudhabichamberofcommerce.org<br>Phone: (971) 553490321</p>
+    </section>
+    
+    <section class="social">
+        <a href="https://github.com/emma-2982">
+            <img src="images/github.jpg" alt="Github">
+        </a>
+    
+        <a href="https://www.instagram.com/">
+            <img src="images/instagram.jpg" alt="Instagram">
+        </a>
+    
+        <a href="https://web.whatsapp.com/">
+            <img src="images/whatApp.jpg" alt="Whatsapp">
+    
+        </a>
+    
+        <a href="https://www.linkedin.com/feed/">
+            <img src="images/linkedIn.jpg" alt="LinkedIn">
+    
+    </section>
+    
+    <section class="footer-dev">
+        <p>&copy; <span id="current-year"></span> Abu Dhabi Chamber of Commerce</p>
+        <p>WDD 231 | <span id="student name">Emmanuel Kofi Teye</span></p>
+        <p>Last Modification: <span id="last-modified">Last Modified</span></p>
+    
+    
+    
+    </section>
+</footer>
+</html>
+
