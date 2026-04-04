@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,227 +36,229 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
-     <body>
-        <header>
-            <div class="branding">
-                <img src="images/preview.jpg" alt=" Abu Dhabi Chamber of Logo">
-                <h1> Join The Abu Dhabi Chamber of Commerce</h1>
-            </div>
-        
-            <button id="menu-toggle" aria-label="Open Menu" aria-expanded="false" aria-controls="primary-nav">
-                ☰
-            </button>
-        
-            <nav id="primary-nav">
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                    <li><a href="join.html">Join</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <main class="join-container">
-    
-            <!-- ===========================
+
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/preview.jpg" alt=" Abu Dhabi Chamber of Logo">
+            <h1> Join The Abu Dhabi Chamber of Commerce</h1>
+        </div>
+
+        <button id="menu-toggle" aria-label="Open Menu" aria-expanded="false" aria-controls="primary-nav">
+            ☰
+        </button>
+
+        <nav id="primary-nav">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-container">
+
+        <!-- ===========================
              MEMBERSHIP APPLICATION FORM
         ============================ -->
-            <section class="form-section">
-                <h2>Membership Application</h2>
-    
-                <form method="get" action="thankyou.html">
-    
-                    <!-- First Name -->
-                    <label>
-                        First Name:
-                        <input type="text" name="firstName" required autocomplete="given-name"
-                            title="Enter your first name">
-                    </label>
-    
-                    <!-- Last Name -->
-                    <label>
-                        Last Name:
-                        <input type="text" name="lastName" required autocomplete="family-name" title="Enter your last name">
-                    </label>
-    
-                    <!-- Organizational Title -->
-                    <label>
-                        Organizational Title:
-                        <input type="text" name="orgTitle" autocomplete="organization-title" pattern="[A-Za-z\\- ]{7,}"
-                            title="Minimum 7 characters. Letters, hyphens, and spaces only.">
-                    </label>
-    
-                    <!-- Email -->
-                    <label>
-                        Email:
-                        <input type="email" name="email" required autocomplete="email" placeholder="example@email.com"
-                            title="Enter a valid email address">
-                    </label>
-    
-                    <!-- Mobile Phone -->
-                    <label>
-                        Mobile Phone:
-                        <input type="tel" name="phone" required autocomplete="tel" title="Enter your mobile phone number">
-                    </label>
-    
-                    <!-- Organization Name -->
-                    <label>
-                        Business / Organization Name:
-                        <input type="text" name="organization" required autocomplete="organization"
-                            title="Enter your business or organization name">
-                    </label>
-    
-                    <!-- Membership Level -->
-                    <label>
-                        Membership Level:
-                        <select name="membership" required title="Select a membership level">
-                            <option value="">Select a level</option>
-                            <option value="np">NP Membership (Non-profit)</option>
-                            <option value="bronze">Bronze Membership</option>
-                            <option value="silver">Silver Membership</option>
-                            <option value="gold">Gold Membership</option>
-                        </select>
-                    </label>
-    
-                    <!-- Business Description -->
-                    <label>
-                        Business Description:
-                        <textarea name="description" title="Describe your business or organization"></textarea>
-                    </label>
-    
-                    <!-- Hidden Timestamp -->
-                    <input type="hidden" id="timestamp" name="timestamp">
-    
-                    <!-- Submit Button -->
-                    <input type="submit" value="Apply Now" class="submit-btn">
-    
-                </form>
-            </section>
-    
-            <!-- ===========================
+        <section class="form-section">
+            <h2>Membership Application</h2>
+
+            <form method="get" action="thankyou.html">
+
+                <!-- First Name -->
+                <label>
+                    First Name:
+                    <input type="text" name="firstName" required autocomplete="given-name"
+                        title="Enter your first name">
+                </label>
+
+                <!-- Last Name -->
+                <label>
+                    Last Name:
+                    <input type="text" name="lastName" required autocomplete="family-name" title="Enter your last name">
+                </label>
+
+                <!-- Organizational Title -->
+                <label>
+                    Organizational Title:
+                    <input type="text" name="orgTitle" autocomplete="organization-title" pattern="[A-Za-z\\- ]{7,}"
+                        title="Minimum 7 characters. Letters, hyphens, and spaces only.">
+                </label>
+
+                <!-- Email -->
+                <label>
+                    Email:
+                    <input type="email" name="email" required autocomplete="email" placeholder="example@email.com"
+                        title="Enter a valid email address">
+                </label>
+
+                <!-- Mobile Phone -->
+                <label>
+                    Mobile Phone:
+                    <input type="tel" name="phone" required autocomplete="tel" title="Enter your mobile phone number">
+                </label>
+
+                <!-- Organization Name -->
+                <label>
+                    Business / Organization Name:
+                    <input type="text" name="organization" required autocomplete="organization"
+                        title="Enter your business or organization name">
+                </label>
+
+                <!-- Membership Level -->
+                <label>
+                    Membership Level:
+                    <select name="membership" required title="Select a membership level">
+                        <option value="">Select a level</option>
+                        <option value="np">NP Membership (Non-profit)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <!-- Business Description -->
+                <label>
+                    Business Description:
+                    <textarea name="description" title="Describe your business or organization"></textarea>
+                </label>
+
+                <!-- Hidden Timestamp -->
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <!-- Submit Button -->
+                <input type="submit" value="Apply Now" class="submit-btn">
+
+            </form>
+        </section>
+
+        <!-- ===========================
              MEMBERSHIP LEVEL CARDS
         ============================ -->
-            <aside class="membership-cards">
-    
-                <div class="card" id="card-np">
-                    <h2>NP Membership</h2>
-                    <p>Perfect for non-profit organizations.</p>
-                    <button data-modal="modal-np">More Info</button>
-                </div>
-    
-                <div class="card" id="card-bronze">
-                    <h2>Bronze Membership</h2>
-                    <p>Great for small businesses.</p>
-                    <button data-modal="modal-bronze">More Info</button>
-                </div>
-    
-                <div class="card" id="card-silver">
-                    <h2>Silver Membership</h2>
-                    <p>Enhanced visibility and benefits.</p>
-                    <button data-modal="modal-silver">More Info</button>
-                </div>
-    
-                <div class="card" id="card-gold">
-                    <h2>Gold Membership</h2>
-                    <p>Premium benefits and top exposure.</p>
-                    <button data-modal="modal-gold">More Info</button>
-                </div>
-    
-            </aside>
-    
-        </main>
-    
-        <!-- ===========================
+        <aside class="membership-cards">
+
+            <div class="card" id="card-np">
+                <h2>NP Membership</h2>
+                <p>Perfect for non-profit organizations.</p>
+                <button data-modal="modal-np">More Info</button>
+            </div>
+
+            <div class="card" id="card-bronze">
+                <h2>Bronze Membership</h2>
+                <p>Great for small businesses.</p>
+                <button data-modal="modal-bronze">More Info</button>
+            </div>
+
+            <div class="card" id="card-silver">
+                <h2>Silver Membership</h2>
+                <p>Enhanced visibility and benefits.</p>
+                <button data-modal="modal-silver">More Info</button>
+            </div>
+
+            <div class="card" id="card-gold">
+                <h2>Gold Membership</h2>
+                <p>Premium benefits and top exposure.</p>
+                <button data-modal="modal-gold">More Info</button>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- ===========================
            MODALS
       ============================ -->
-    
-        <!-- NP Modal -->
-        <div id="modal-np" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>NP Membership Benefits</h2>
-                <ul>
-                    <li>No membership fee</li>
-                    <li>Basic directory listing</li>
-                    <li>Access to community events</li>
-                </ul>
-            </div>
+
+    <!-- NP Modal -->
+    <div id="modal-np" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>NP Membership Benefits</h2>
+            <ul>
+                <li>No membership fee</li>
+                <li>Basic directory listing</li>
+                <li>Access to community events</li>
+            </ul>
         </div>
-    
-        <!-- Bronze Modal -->
-        <div id="modal-bronze" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Bronze Membership Benefits</h2>
-                <ul>
-                    <li>Event discounts</li>
-                    <li>Business listing</li>
-                    <li>Training sessions</li>
-                </ul>
-            </div>
+    </div>
+
+    <!-- Bronze Modal -->
+    <div id="modal-bronze" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bronze Membership Benefits</h2>
+            <ul>
+                <li>Event discounts</li>
+                <li>Business listing</li>
+                <li>Training sessions</li>
+            </ul>
         </div>
-    
-        <!-- Silver Modal -->
-        <div id="modal-silver" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Silver Membership Benefits</h2>
-                <ul>
-                    <li>Spotlight advertising</li>
-                    <li>Priority event access</li>
-                    <li>Enhanced directory listing</li>
-                </ul>
-            </div>
+    </div>
+
+    <!-- Silver Modal -->
+    <div id="modal-silver" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Silver Membership Benefits</h2>
+            <ul>
+                <li>Spotlight advertising</li>
+                <li>Priority event access</li>
+                <li>Enhanced directory listing</li>
+            </ul>
         </div>
-    
-        <!-- Gold Modal -->
-        <div id="modal-gold" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Gold Membership Benefits</h2>
-                <ul>
-                    <li>Premium advertising</li>
-                    <li>VIP event access</li>
-                    <li>Top-tier visibility</li>
-                </ul>
-            </div>
+    </div>
+
+    <!-- Gold Modal -->
+    <div id="modal-gold" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Gold Membership Benefits</h2>
+            <ul>
+                <li>Premium advertising</li>
+                <li>VIP event access</li>
+                <li>Top-tier visibility</li>
+            </ul>
         </div>
-    
-<footer>
-    <section class="footer-contact">
-        <h3>Abu Dhabi Chamber of Commerce</h3>
-        <p>Hamdan Street Mrriot Courtyard<br>Hamdan, Abu Dhabi, UAE</p>
-        <p>Email: info@abudhabichamberofcommerce.org<br>Phone: (971) 553490321</p>
-    </section>
-    
-    <section class="social">
-        <h3>Follow Us</h3>
-        <a href="https://github.com/emma-2982">
-            <img src="images/github.jpg" alt="Github">
-        </a>
-    
-        <a href="https://www.instagram.com/">
-            <img src="images/instagram.jpg" alt="Instagram">
-        </a>
-    
-        <a href="https://web.whatsapp.com/">
-            <img src="images/whatsapp.jpg" alt="Whatsapp">
-    
-        </a>
-    
-        <a href="https://www.linkedin.com/feed/">
-            <img src="images/linkedin.jpg" alt="LinkedIn">
-        </a>
-    
-    </section>
-    
-    <section class="footer-dev">
-        <h3>Developer Information</h3>
-        <p>&copy; <span id="current-year"></span> Abu Dhabi Chamber of Commerce</p>
-        <p>WDD 231 | <span id="student-name">Emmanuel Kofi Teye</span></p>
-        <p>Last Modification: <span id="last-modified">Last Modified</span></p>
-     </section>
-</footer>
+    </div>
+
+    <footer>
+        <section class="footer-contact">
+            <h3>Abu Dhabi Chamber of Commerce</h3>
+            <p>Hamdan Street Mrriot Courtyard<br>Hamdan, Abu Dhabi, UAE</p>
+            <p>Email: info@abudhabichamberofcommerce.org<br>Phone: (971) 553490321</p>
+        </section>
+
+        <section class="social">
+            <h3>Follow Us</h3>
+            <a href="https://github.com/emma-2982">
+                <img src="images/github.jpg" alt="Github">
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.jpg" alt="Instagram">
+            </a>
+
+            <a href="https://web.whatsapp.com/">
+                <img src="images/whatsapp.jpg" alt="Whatsapp">
+
+            </a>
+
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.jpg" alt="LinkedIn">
+            </a>
+
+        </section>
+
+        <section class="footer-dev">
+            <h3>Developer Information</h3>
+            <p>&copy; <span id="current-year"></span> Abu Dhabi Chamber of Commerce</p>
+            <p>WDD 231 | <span id="student-name">Emmanuel Kofi Teye</span></p>
+            <p>Last Modification: <span id="last-modified">Last Modified</span></p>
+        </section>
+    </footer>
 </body>
+
 </html>
