@@ -1,0 +1,64 @@
+/* ===== DISCOVER PAGE BASE STYLES ===== */
+
+.discover-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+/* Cards */
+.discover-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discover-card h2 {
+    margin-top: 0;
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+.discover-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.discover-card address {
+    font-style: normal;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.discover-card button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #0077cc;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Last Visit Message */
+.visit-message {
+    background: #eef6ff;
+    padding: 1rem;
+    margin: 1rem;
+    border-left: 4px solid #0077cc;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
