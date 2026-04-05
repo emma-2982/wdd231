@@ -43,4 +43,5 @@ if (!lastVisit) {
 }
 
 localStorage.setItem("lastVisit", now);
-c
+
+

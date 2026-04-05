@@ -5,7 +5,7 @@
             "address": "123 Marina Road, Abu Dhabi",
             "phone": "+971 2 555 1234",
             "website": "https://bluehorizontech.com",
-            "image":"http://127.0.0.1:5500/chamber/images/bluehorizon.jpg",
+            "image": "images/bluehorizon.jpg",
             "membership": 3,
             "description": "Leading provider of cloud and AI solutions."
         },
@@ -14,7 +14,7 @@
             "address": "45 Green Oasis St, Abu Dhabi",
             "phone": "+971 2 444 9876",
             "website": "https://desertbloom.ae",
-            "image": "desertbloom.jpg",
+            "image": "images/bluehorizon.jpg",
             "membership": 2,
             "description": "Specialists in sustainable outdoor design."
         },
