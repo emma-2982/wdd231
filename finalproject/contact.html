@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Jamila's Cake House</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/site-logo.jpg" alt="Jamila's Cake House logo" width="80">
+        <h1>Jamila's Cake House</h1>
+        <button id="menu" class="hamburger"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-hero">
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Send us a message or place an order.</p>
+        </section>
+
+        <section class="contact-form-section">
+            <form class="contact-form">
+                <label>
+                    Name:
+                    <input type="text" name="name" required>
+                </label>
+
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>
+                    Message:
+                    <textarea name="message" rows="5" required></textarea>
+                </label>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Jamila's Cake House</p>
+        <a href="attributions.html">Attributions</a>
+        <a href="video.html">Project Video</a>
+    </footer>
+
+</body>
+
+</html>

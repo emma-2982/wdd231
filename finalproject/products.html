@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jamila's Cake House | Products</title>
+
+    <meta name="description"
+        content="Explore our luxury cakes, pastries, and desserts made fresh daily at Jamila's Cake House.">
+    <meta name="author" content="Emmanuel Kofi Teye">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script type="module" src="scripts/products.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/site-logo.jpg" alt="Jamila's Cake House logo" width="80">
+
+        <h1>Jamila's Cake House</h1>
+
+        <button id="menu" aria-label="Open menu"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Luxury cakes display">
+
+            <div class="hero-text">
+                <h2>Our Cake Collection</h2>
+                <p>Elegant handcrafted cakes for every celebration.</p>
+            </div>
+        </section>
+
+        <!-- SEARCH -->
+        <section>
+            <h2>Find Your Perfect Cake</h2>
+
+            <input type="text" id="search" placeholder="Search cakes by name...">
+        </section>
+
+        <!-- PRODUCTS GRID -->
+        <section>
+            <h2>All Products</h2>
+            <div id="products-grid" class="grid"></div>
+        </section>
+
+        <!-- MODAL -->
+        <dialog id="cakeModal">
+            <div id="modalContent"></div>
+            <button id="closeModal">Close</button>
+        </dialog>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Jamila's Cake House</p>
+        <a href="attributions.html">Attributions</a>
+        <a href="video.html">Project Video</a>
+    </footer>
+
+</body>
+
+</html>

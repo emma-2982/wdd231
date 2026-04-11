@@ -1,0 +1,12 @@
+/* TABLET+ */
+@media (min-width: 700px) {
+
+    .features,
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-text h2 {
+        font-size: 3rem;
+    }
+}

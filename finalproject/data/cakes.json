@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Chocolate Royal Cake",
+        "price": "$25",
+        "category": "Cake",
+        "rating": 4.9,
+        "image": "images/chocolate-cake.jpg",
+        "description": "Rich chocolate layers with luxury ganache finish."
+    },
+    {
+        "id": 2,
+        "name": "Vanilla Elegance",
+        "price": "$22",
+        "category": "Cake",
+        "rating": 4.7,
+        "image": "images/vanilla-cake.jpg",
+        "description": "Soft vanilla sponge with creamy frosting."
+    },
+    {
+        "id": 3,
+        "name": "Red Velvet Classic",
+        "price": "$28",
+        "category": "Cake",
+        "rating": 4.8,
+        "image": "images/red-velvet-cake.jpg",
+        "description": "Smooth cream cheese frosting with velvet texture."
+    },
+    {
+        "id": 4,
+        "name": "Strawberry Delight",
+        "price": "$26",
+        "category": "Cake",
+        "rating": 4.6,
+        "image": "images/strawberry-cake.jpg",
+        "description": "Fresh strawberries with light cream layers."
+    },
+    {
+        "id": 5,
+        "name": "Golden Wedding Cake",
+        "price": "$80",
+        "category": "Luxury",
+        "rating": 5.0,
+        "image": "images/wedding-cake.jpg",
+        "description": "Elegant multi-tier luxury wedding cake."
+    },
+    {
+        "id": 6,
+        "name": "Chocolate Cupcake",
+        "price": "$4",
+        "category": "Cupcake",
+        "rating": 4.5,
+        "image": "images/choco-cupcake.jpg",
+        "description": "Mini chocolate delight with creamy topping."
+    },
+    {
+        "id": 7,
+        "name": "Vanilla Cupcake",
+        "price": "$4",
+        "category": "Cupcake",
+        "rating": 4.4,
+        "image": "images/vanilla-cupcake.jpg",
+        "description": "Soft vanilla cupcake with buttercream."
+    },
+    {
+        "id": 8,
+        "name": "Luxury Macarons",
+        "price": "$12",
+        "category": "Dessert",
+        "rating": 4.9,
+        "image": "images/macarons.jpg",
+        "description": "French-style colorful macarons."
+    },
+    {
+        "id": 9,
+        "name": "Caramel Cheesecake",
+        "price": "$30",
+        "category": "Cake",
+        "rating": 4.8,
+        "image": "images/cheesecake.jpg",
+        "description": "Creamy cheesecake with caramel drizzle."
+    },
+    {
+        "id": 10,
+        "name": "Blueberry Muffin",
+        "price": "$3",
+        "category": "Pastry",
+        "rating": 4.3,
+        "image": "images/muffin.jpg",
+        "description": "Fresh baked muffin with blueberries."
+    },
+    {
+        "id": 11,
+        "name": "Butter Croissant",
+        "price": "$2",
+        "category": "Pastry",
+        "rating": 4.6,
+        "image": "images/croissant.jpg",
+        "description": "Flaky golden butter croissant."
+    },
+    {
+        "id": 12,
+        "name": "Chocolate Donut",
+        "price": "$2",
+        "category": "Dessert",
+        "rating": 4.5,
+        "image": "images/donut.jpg",
+        "description": "Soft donut with chocolate glaze."
+    },
+    {
+        "id": 13,
+        "name": "Fruit Tart Deluxe",
+        "price": "$18",
+        "category": "Dessert",
+        "rating": 4.7,
+        "image": "images/fruit-tart.jpg",
+        "description": "Fresh fruit on creamy tart base."
+    },
+    {
+        "id": 14,
+        "name": "Cinnamon Rolls",
+        "price": "$6",
+        "category": "Pastry",
+        "rating": 4.6,
+        "image": "images/cinnamon-rolls.jpg",
+        "description": "Soft rolls with cinnamon glaze."
+    },
+    {
+        "id": 15,
+        "name": "Black Forest Cake",
+        "price": "$35",
+        "category": "Cake",
+        "rating": 4.9,
+        "image": "images/black-forest.jpg",
+        "description": "Chocolate cake with cherries and cream."
+    }
+]
