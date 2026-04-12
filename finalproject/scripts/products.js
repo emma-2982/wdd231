@@ -5,6 +5,7 @@ const modalContent = document.querySelector("#modalContent");
 const closeModal = document.querySelector("#closeModal");
 
 let cakes = [];
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 /* FOOTER YEAR */
 document.querySelector("#year").textContent = new Date().getFullYear();
