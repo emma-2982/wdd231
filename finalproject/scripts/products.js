@@ -19,6 +19,7 @@ menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("open");
 });
 
+
 /* FETCH DATA */
 async function loadCakes() {
     try {
