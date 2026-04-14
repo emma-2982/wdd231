@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Vanilla Elegance",
-        "price": "$22",
+        "price": "DHS22",
         "category": "Cake",
         "rating": 4.7,
         "image": "images/vanilla-cake.jpg",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Red Velvet Classic",
-        "price": "$28",
+        "price": "DHS28",
         "category": "Cake",
         "rating": 4.8,
         "image": "images/red-velvet-cake.jpg",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Strawberry Delight",
-        "price": "$26",
+        "price": "DHS26",
         "category": "Cake",
         "rating": 4.6,
         "image": "images/strawberry-cake.jpg",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Golden Wedding Cake",
-        "price": "$80",
+        "price": "DHS80",
         "category": "Luxury",
         "rating": 5.0,
         "image": "images/wedding-cake.jpg",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Chocolate Cupcake",
-        "price": "$4",
+        "price": "DHS4",
         "category": "Cupcake",
         "rating": 4.5,
         "image": "images/choco-cupcake.jpg",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Vanilla Cupcake",
-        "price": "$4",
+        "price": "DHS4",
         "category": "Cupcake",
         "rating": 4.4,
         "image": "images/vanilla-cupcake.jpg",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Luxury Macarons",
-        "price": "$12",
+        "price": "$DHS2",
         "category": "Dessert",
         "rating": 4.9,
         "image": "images/macarons.jpg",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "name": "Caramel Cheesecake",
-        "price": "$30",
+        "price": "DHS30",
         "category": "Cake",
         "rating": 4.8,
         "image": "images/cheesecake.jpg",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Blueberry Muffin",
-        "price": "$3",
+        "price": "DHS3",
         "category": "Pastry",
         "rating": 4.3,
         "image": "images/muffin.jpg",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "name": "Butter Croissant",
-        "price": "$2",
+        "price": "DHS2",
         "category": "Pastry",
         "rating": 4.6,
         "image": "images/croissant.jpg",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "Chocolate Donut",
-        "price": "$2",
+        "price": "DHS2",
         "category": "Dessert",
         "rating": 4.5,
         "image": "images/donut.jpg",
@@ -110,7 +110,7 @@
     {
         "id": 13,
         "name": "Fruit Tart Deluxe",
-        "price": "$18",
+        "price": "DHS18",
         "category": "Dessert",
         "rating": 4.7,
         "image": "images/fruit-tart.jpg",
@@ -119,7 +119,7 @@
     {
         "id": 14,
         "name": "Cinnamon Rolls",
-        "price": "$6",
+        "price": "DHS6",
         "category": "Pastry",
         "rating": 4.6,
         "image": "images/cinnamon-rolls.jpg",
@@ -128,7 +128,7 @@
     {
         "id": 15,
         "name": "Black Forest Cake",
-        "price": "$35",
+        "price": "DHS35",
         "category": "Cake",
         "rating": 4.9,
         "image": "images/black-forest.jpg",
